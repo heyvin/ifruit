@@ -15,9 +15,9 @@
     <main id="content" role="main">
         <article class="px3 py4">
             <h1 class="h1 my4">Add Order</h1>
-            <form action-xhr="https://fruit.heyvin.local/order/add"
+            <form action-xhr="/order/add"
                   method="POST"
-                  on="submit-success:AMP.navigateTo(url='https://fruit.heyvin.local/orders');
+                  on="submit-success:AMP.navigateTo(url='/orders');
                       submit-error:AMP.setState({'appState':{
                         submitError: event.response['message']
                       }})"
