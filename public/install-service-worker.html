@@ -3,7 +3,7 @@
 <head>
     <title>installing service worker</title>
     <script type="text/javascript">
-        var swsource = "/service-worker.js";
+        var swsource = "/js/service-worker.js";
         if("serviceWorker" in navigator) {
             navigator.serviceWorker.register(swsource)
                 .then(function(reg){
