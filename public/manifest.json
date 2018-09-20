@@ -1,22 +1,23 @@
 {
-  "short_name": "BFS",
-  "name": "iFruit",
+  "short_name": "iFruit",
+  "name": "iFruit Services",
+  "display": "standalone",
   "icons": [
     {
-      "src": "img/launcher/ifruit-icon-1x.png",
+      "src": "/img/launcher/ifruit-icon-1x.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "img/launcher/ifruit-icon-2x.png",
+      "src": "/img/launcher/ifruit-icon-2x.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "img/launcher/ifruit-icon-4x.png",
+      "src": "/img/launcher/ifruit-icon-4x.png",
       "type": "image/png",
       "sizes": "192x192"
     }
   ],
-  "start_url": "index.php?launcher=true"
+  "start_url": "/"
 }

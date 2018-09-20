@@ -25,8 +25,12 @@
 
 
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7CLora%7CLato" rel="stylesheet">
-
     <link rel="manifest" href="/manifest.json">
+    <link rel="icon" sizes="192x192" href="/img/launcher/ifruit-icon-4x.png">
+    <link rel="apple-touch-icon" href="/img/launcher/ifruit-touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/launcher/ifruit-touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/launcher/ifruit-touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/img/launcher/ifruit-touch-icon-ipad-retina.png">
 
     <style amp-custom="">/*! Bassplate | MIT License | http://github.com/basscss/bassplate */
 
