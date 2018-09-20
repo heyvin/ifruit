@@ -20,9 +20,13 @@
     <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async=""></script>
     <script custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js" async=""></script>
     <script custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js" async=""></script>
+    <script async custom-element="amp-install-serviceworker"
+            src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
 
 
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7CLora%7CLato" rel="stylesheet">
+
+    <link rel="manifest" href="/manifest.json">
 
     <style amp-custom="">/*! Bassplate | MIT License | http://github.com/basscss/bassplate */
 
@@ -37,6 +41,11 @@
         }
         </script>
 </amp-state>
+
+<amp-install-serviceworker
+        src="/js/service-worker.js"
+        layout="nodisplay">
+</amp-install-serviceworker>
 
 @yield('content')
 
