@@ -48,7 +48,8 @@
 
 <amp-install-serviceworker
         src="/js/service-worker.js"
-        layout="nodisplay">
+        layout="nodisplay"
+        data-iframe-src="/install-service-worker.html">
 </amp-install-serviceworker>
 
 @yield('content')
