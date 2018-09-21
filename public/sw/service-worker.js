@@ -298,8 +298,10 @@ toolbox.router.get("*", (request, values, options) => {
                         return caches.match('/sw/offline.html', {ignoreSearch: true});
                     });
             }, {});
-toolbox.router.get(/cdn\.ampproject\.org/, toolbox.fastest, {});
+toolbox.router.get(/cdn\.ampproject\.org/, toolbox.networkFirst, {});
 
 
 
+
+importScripts("service-worker-import.js");
 

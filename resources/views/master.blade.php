@@ -46,12 +46,6 @@
         </script>
 </amp-state>
 
-<amp-install-serviceworker
-        src="/sw/service-worker.js"
-        layout="nodisplay"
-        data-iframe-src="/sw/install-service-worker.html">
-</amp-install-serviceworker>
-
 @yield('content')
 
 <!-- Start Footer -->
@@ -63,5 +57,10 @@
     </small>
 </footer>
 <!-- End Footer -->
+<amp-install-serviceworker
+        src="/sw/service-worker.js"
+        layout="nodisplay"
+        data-iframe-src="/sw/install-service-worker.html">
+</amp-install-serviceworker>
 </body>
 </html>

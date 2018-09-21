@@ -22,7 +22,8 @@ module.exports = {
         },
         {
             urlPattern: /cdn\.ampproject\.org/,
-            handler: 'fastest'
+            handler: 'networkFirst'
         }
-    ]
+    ],
+    importScripts: ['service-worker-import.js']
 };
