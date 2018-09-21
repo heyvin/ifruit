@@ -1,1 +1,4 @@
-toolbox.precache(['/']);
+toolbox.precache([
+    '/',
+    '/orders'
+]);

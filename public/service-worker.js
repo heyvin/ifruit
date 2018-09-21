@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["../img/themes_2/bar.jpg","0bb3e70f7d41804a51ab4cbdd8e9e582"],["../img/themes_2/hero.jpg","22a9fb101e3cfad7e496c41d6fd7d54b"],["../img/themes_2/pie.jpg","9bc2bdca0454ce604ee585b7f6be3985"],["../img/themes_2/soup.jpg","04ef0ca9bd4d34ec1655f193131437d3"],["../img/themes_2/steak.jpg","f1bd22836263422d39fd68235c0d3d5e"],["../img/themes_2/waffles.jpg","97ce4f282469b1017bb8a8b282c4d0b0"],["offline.html","8b1c76611091a79b6d13319060236d95"]];
+var precacheConfig = [["img/themes_2/bar.jpg","0bb3e70f7d41804a51ab4cbdd8e9e582"],["img/themes_2/hero.jpg","22a9fb101e3cfad7e496c41d6fd7d54b"],["img/themes_2/pie.jpg","9bc2bdca0454ce604ee585b7f6be3985"],["img/themes_2/soup.jpg","04ef0ca9bd4d34ec1655f193131437d3"],["img/themes_2/steak.jpg","f1bd22836263422d39fd68235c0d3d5e"],["img/themes_2/waffles.jpg","97ce4f282469b1017bb8a8b282c4d0b0"],["offline.html","8b1c76611091a79b6d13319060236d95"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
@@ -295,7 +295,7 @@ toolbox.router.get("*", (request, values, options) => {
                 // If it's a navigation request, use the networkFirst strategy.
                 return toolbox.networkFirst(request, values, options)
                     .catch(() => {
-                        return caches.match('/sw/offline.html', {ignoreSearch: true});
+                        return caches.match('/offline.html', {ignoreSearch: true});
                     });
             }, {});
 toolbox.router.get(/cdn\.ampproject\.org/, toolbox.networkFirst, {});
