@@ -1,6 +1,6 @@
 module.exports = {
     staticFileGlobs: [
-        '../img/themes_2/**.*',
+        'img/themes_2/**.*',
         'offline.html'
     ],
     runtimeCaching: [
@@ -16,7 +16,7 @@ module.exports = {
                 // If it's a navigation request, use the networkFirst strategy.
                 return toolbox.networkFirst(request, values, options)
                     .catch(() => {
-                        return caches.match('/sw/offline.html', {ignoreSearch: true});
+                        return caches.match('/offline.html', {ignoreSearch: true});
                     });
             }
         },
