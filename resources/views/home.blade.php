@@ -27,7 +27,7 @@
                     </h1>
 
                 </header>
-                <footer class="absolute left-0 right-0 bottom-0">
+                <footer class="absolute left-0 right-0 bottom-10p">
                     <a class="ampstart-btn inline-block ampstart-fullpage-hero-cta h5 m3 text-decoration-none" href="/orders">Orders</a>
                     <a class="ampstart-btn inline-block ampstart-fullpage-hero-cta h5 m3 text-decoration-none" href="/shopping">Today Shopping List</a>
                 </footer>

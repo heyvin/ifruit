@@ -1194,6 +1194,10 @@ canvas {
   bottom: 0
 }
 
+.bottom-10p {
+  bottom: 10%;
+}
+
 .left-0 {
   left: 0
 }
