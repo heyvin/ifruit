@@ -1,4 +1,5 @@
 toolbox.precache([
     '/',
-    '/orders'
+    '/orders',
+    '/shopping'
 ]);
