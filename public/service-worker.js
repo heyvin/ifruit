@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["img/themes_2/bar.jpg","e00b7570d72a9cab8e331ab59c3fd93b"],["img/themes_2/hero.jpg","6c2296c4b742bb4befef8b0ef57779d2"],["img/themes_2/pie.jpg","2c85181ac8821f4065f3f5cc573e0baf"],["img/themes_2/soup.jpg","cf6bebbaf3b399733b9e4b3cf08ac170"],["img/themes_2/steak.jpg","add447150c9b79ec548d557137f59245"],["img/themes_2/waffles.jpg","57117e9da6bff9506d67d6e82d64cead"],["offline.html","8b1c76611091a79b6d13319060236d95"]];
+var precacheConfig = [["img/products/guava.jpg","57f7e9339f0890c6046570dec707038b"],["img/products/mango-green.jpg","272b104af47e0908354b4a0c4031370b"],["img/products/mango-yellow.jpg","96c5eb7bae488b51d33dd50dfc9f92f9"],["img/products/papaya.jpg","46c2e102658a51c759e8eab0ac387d31"],["img/products/watermelon.jpg","eb5553efaa15bf1be35535acd2353a31"],["img/themes_2/bar.jpg","e00b7570d72a9cab8e331ab59c3fd93b"],["img/themes_2/hero.jpg","6c2296c4b742bb4befef8b0ef57779d2"],["img/themes_2/pie.jpg","2c85181ac8821f4065f3f5cc573e0baf"],["img/themes_2/soup.jpg","cf6bebbaf3b399733b9e4b3cf08ac170"],["img/themes_2/steak.jpg","add447150c9b79ec548d557137f59245"],["img/themes_2/waffles.jpg","57117e9da6bff9506d67d6e82d64cead"],["offline.html","8b1c76611091a79b6d13319060236d95"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 

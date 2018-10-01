@@ -4,6 +4,7 @@ Homestead.json
 Homestead.yaml
 .env
 /database/database.sqlite
+/database/database_production.sqlite
 /storage
 .DS_Store
 /node_modules

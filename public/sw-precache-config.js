@@ -1,6 +1,7 @@
 module.exports = {
     staticFileGlobs: [
         'img/themes_2/**.*',
+        'img/products/**.*',
         'offline.html'
     ],
     runtimeCaching: [
