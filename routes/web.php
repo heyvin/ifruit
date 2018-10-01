@@ -17,3 +17,4 @@ $app->get('/order/create', 'OrderController@create');
 $app->get('/order/{id}/edit', 'OrderController@edit');
 $app->post('/order/add', 'OrderController@add');
 $app->post('/order/update', 'OrderController@update');
+$app->get('/shopping', 'ShoppingListController@index');

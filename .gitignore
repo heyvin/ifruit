@@ -6,3 +6,5 @@ Homestead.yaml
 /database/database.sqlite
 /storage
 .DS_Store
+/node_modules
+/public/css/page.min.css
