@@ -28,7 +28,7 @@
                 <input type="password" name="pwd" class="col col-12 mb2">
                 @foreach($fruits as $fruit)
                     <dl class="clearfix">
-                        <dt class="col col-6 m0"><amp-img class="mb2" src="/img/themes_2/waffles.jpg" width="300" height="200" alt="" layout="responsive"></amp-img></dt>
+                        <dt class="col col-6 m0"><amp-img class="mb2" src="{{ $fruit->image }}" width="300" height="200" alt="" layout="responsive"></amp-img></dt>
                         <dd class="col col-6 pl1 m0 center">{{ $fruit->name }}</dd>
                         <dt class="col col-6 pl1 mb1">
                             <input type="text" name="quantity{{ $fruit->id }}" class="col col-12 h4 center" value="0">
