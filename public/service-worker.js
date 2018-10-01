@@ -295,7 +295,7 @@ toolbox.router.get("*", (request, values, options) => {
                 // If it's a navigation request, use the networkFirst strategy.
                 return toolbox.networkFirst(request, values, options)
                     .catch(() => {
-                        return caches.match('/offline.html', {ignoreSearch: true});
+                        return caches.match('offline.html', {ignoreSearch: true});
                     });
             }, {});
 toolbox.router.get(/cdn\.ampproject\.org/, toolbox.networkFirst, {});
