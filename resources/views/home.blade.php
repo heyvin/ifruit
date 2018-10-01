@@ -22,7 +22,7 @@
                 <header class="p3">
                     <h1 class="ampstart-fullpage-hero-heading mb3">
               <span class="ampstart-fullpage-hero-heading-text">
-                <span class="h6 block caps">Welcome to</span><span class="h1 block bold my1">iFruit Services</span><span class="h6 block caps">by Bao Anh</span>
+                <span class="h6 block caps">Welcome to</span><span class="h1 block bold my1">iFruit Services</span>
               </span>
                     </h1>
 
